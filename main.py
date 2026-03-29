@@ -5,7 +5,7 @@ from fastapi import FastAPI, Request
 
 app = FastAPI()
 
-TOKEN = os.getenv("8653490697:AAEXZbc8sQWX6qSXrt7f6C_w7ySMAkel0E0")
+TOKEN = os.getenv("BOT_TOKEN")
 
 if not TOKEN:
     raise ValueError("BOT_TOKEN is missing")
